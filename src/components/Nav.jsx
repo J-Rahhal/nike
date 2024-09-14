@@ -18,9 +18,8 @@ const Nav = () => {
           focusable="false"
           viewBox="0 0 24 24"
           role="img"
-          width="42px"
-          height="42px"
           fill="none"
+          className="w-16 h-16"
         >
           <path
             fill="black"
@@ -58,7 +57,7 @@ const Nav = () => {
         <CiMenuBurger className="cursor-pointer" onClick={ToggleMenu} />
       </div>
       {toggle && (
-        <div className="absolute top-0  left-0 h-screen overflow-hidden w-full bg-gray-300">
+        <div className="absolute top-0 z-50 left-0 h-screen overflow-hidden w-full bg-white">
           <div>
             <IoCloseOutline
               size={24}
