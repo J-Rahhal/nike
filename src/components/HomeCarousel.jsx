@@ -14,7 +14,7 @@ const HomeCarousel = ({ slides }) => {
     autoplay: true,
     speed: 500,
     autoplaySpeed: 2000,
-    arrows: false,
+
     responsive: [
       {
         breakpoint: 1024,
@@ -22,11 +22,9 @@ const HomeCarousel = ({ slides }) => {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
           autoplay: true,
           speed: 500,
           autoplaySpeed: 2000,
-          arrows: false,
         },
       },
       {
@@ -38,7 +36,6 @@ const HomeCarousel = ({ slides }) => {
           autoplay: true,
           speed: 500,
           autoplaySpeed: 2000,
-          arrows: false,
         },
       },
       {
@@ -49,7 +46,6 @@ const HomeCarousel = ({ slides }) => {
           autoplay: true,
           speed: 500,
           autoplaySpeed: 2000,
-          arrows: false,
         },
       },
     ],
