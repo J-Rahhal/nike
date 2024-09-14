@@ -9,6 +9,9 @@ import JA from "../assets/HomeGrid/JordanApparel.jpg";
 import EFR from "../assets/HomeGrid/EssentialsForRunning.jpg";
 import NE from "../assets/HomeGrid/NewEssentials.jpg";
 
+import JordanLuka from "../assets/home-arrivals/jordanluka.png";
+import NOCTA from "../assets/home-arrivals/nocta.png";
+
 export const NavLinks = [
   {
     id: 0,
@@ -88,5 +91,16 @@ export const HomeGridPictures = [
     description: "Fall Favorites",
     image: NE,
     btnText: "view",
+  },
+];
+
+export const NewArrivals = [
+  {
+    id: 1,
+    image: JordanLuka,
+  },
+  {
+    id: 2,
+    image: NOCTA,
   },
 ];
