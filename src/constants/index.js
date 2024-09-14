@@ -104,3 +104,63 @@ export const NewArrivals = [
     image: NOCTA,
   },
 ];
+
+export const Featured = [
+  {
+    id: 1,
+    name: "Air Force 1",
+  },
+  {
+    id: 2,
+    name: "Jordan 1",
+  },
+  {
+    id: 3,
+    name: "Air Max 270",
+  },
+];
+
+export const Shoes = [
+  {
+    id: 1,
+    name: "Jordan Shoes",
+  },
+  {
+    id: 2,
+    name: "Running Shoes",
+  },
+  {
+    id: 3,
+    name: "BasketBall Shoes",
+  },
+];
+
+export const Clothing = [
+  {
+    id: 1,
+    name: "Tops & T-shirts",
+  },
+  {
+    id: 2,
+    name: "Shorts",
+  },
+  {
+    id: 3,
+    name: "Hoodies & Pullovers",
+  },
+];
+
+export const Kids = [
+  {
+    id: 1,
+    name: "Kids Shoes",
+  },
+  {
+    id: 2,
+    name: "Kids Basketball Shoes",
+  },
+  {
+    id: 3,
+    name: "Kids Running Shoes",
+  },
+];
