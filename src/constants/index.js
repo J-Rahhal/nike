@@ -199,18 +199,22 @@ export const Featured = [
   {
     id: 0,
     name: "All Featured",
+    type: "featured",
   },
   {
     id: 1,
     name: "Air Force 1",
+    type: "featured",
   },
   {
     id: 2,
     name: "Jordan 1",
+    type: "featured",
   },
   {
     id: 3,
     name: "Air Max 270",
+    type: "featured",
   },
 ];
 
@@ -218,18 +222,22 @@ export const Shoes = [
   {
     id: 0,
     name: "All Shoes",
+    type: "shoes",
   },
   {
     id: 1,
     name: "Jordan Shoes",
+    type: "shoes/jordan",
   },
   {
     id: 2,
     name: "Running Shoes",
+    type: "shoes/running",
   },
   {
     id: 3,
     name: "BasketBall Shoes",
+    type: "shoes/basketball",
   },
 ];
 
@@ -237,18 +245,22 @@ export const Clothing = [
   {
     id: 0,
     name: "All Clothing",
+    type: "clothing",
   },
   {
     id: 1,
     name: "Tops & T-shirts",
+    type: "clothing",
   },
   {
     id: 2,
     name: "Shorts",
+    type: "clothing",
   },
   {
     id: 3,
     name: "Hoodies & Pullovers",
+    type: "clothing",
   },
 ];
 
@@ -256,18 +268,22 @@ export const Kids = [
   {
     id: 0,
     name: "All Shoes",
+    type: "kids",
   },
   {
     id: 1,
-    name: "Kids Shoes",
+    name: "Jordan Shoes",
+    type: "kids/jordan",
   },
   {
     id: 2,
-    name: "Kids Basketball Shoes",
+    name: "Basketball Shoes",
+    type: "kids/basketball",
   },
   {
     id: 3,
-    name: "Kids Running Shoes",
+    name: "Running Shoes",
+    type: "kids/running",
   },
 ];
 

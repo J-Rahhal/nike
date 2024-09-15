@@ -12,7 +12,7 @@ const AllShoes = () => {
     <div className="flex flex-col gap-5 py-10">
       <Title text={"All Shoes"} />
       <div className="border"></div>
-      <CategoriesNav categoryArr={Categories} link={"allshoes"} />
+      <CategoriesNav categoryArr={Categories} link={"shoes"} />
       <div className="border"></div>
       <CardGrid ItemArr={KidsShoes} subcategory={subcategory} />
       <CardGrid ItemArr={MenShoes} subcategory={subcategory} />

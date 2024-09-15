@@ -8,7 +8,7 @@ const FooterSection = ({ section, text }) => {
       {section.map((item) => {
         return (
           <Link
-            to={"/" + item.name.replace(" ", "").toLowerCase()}
+            to={`/${item.type}`}
             key={item.id}
             className="block text-xs text-gray-600 md:text-lg lg:text-xl"
           >

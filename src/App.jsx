@@ -17,13 +17,14 @@ const App = () => {
         <Route path="/kids" element={<Kids />} />
         <Route path="/men" element={<Men />} />
         <Route path="/women" element={<Women />} />
-        <Route path="/allshoes" element={<AllShoes />} />
+        <Route path="/shoes" element={<AllShoes />} />
+        {/* <Route path ="/jordan" */}
 
         <Route path="/accessories/:subcategory?" element={<Accessories />} />
         <Route path="/kids/:subcategory?" element={<Kids />} />
         <Route path="/men/:subcategory?" element={<Men />} />
         <Route path="/women/:subcategory?" element={<Women />} />
-        <Route path="/allshoes/:subcategory?" element={<AllShoes />} />
+        <Route path="/shoes/:subcategory?" element={<AllShoes />} />
       </Route>
     </Routes>
   );
