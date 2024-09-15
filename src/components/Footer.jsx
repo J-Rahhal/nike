@@ -1,7 +1,6 @@
 import React from "react";
-import { Featured } from "../constants/index";
-import { Shoes } from "../constants/index";
-import { Clothing } from "../constants/index";
+import { FeaturedMenu, Shoes } from "../constants/index.js";
+import { Clothing } from "../constants/index.js";
 import { Kids } from "../constants/index";
 import FooterSection from "../components/FooterSection";
 
@@ -10,7 +9,7 @@ const Footer = () => {
   return (
     <div>
       <div className="my-10 mx-1 grid grid-cols-2 gap-3 md:grid-cols-4 md:text-lg lg:text-2xl">
-        <FooterSection text="Featured" section={Featured} />
+        <FooterSection text="Featured" section={FeaturedMenu} />
         <FooterSection text="Shoes" section={Shoes} />
         <FooterSection text="Clothing" section={Clothing} />
         <FooterSection text="Kids" section={Kids} />

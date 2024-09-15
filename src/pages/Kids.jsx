@@ -7,7 +7,7 @@ import CardGrid from "../components/CardGrid";
 
 const Kids = () => {
   let { subcategory = "all" } = useParams();
-  console.log(subcategory);
+
   return (
     <div className="flex flex-col gap-5 py-10">
       <Title text={"Kids Corner"} />

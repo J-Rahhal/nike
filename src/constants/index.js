@@ -102,6 +102,18 @@ import LeBronWitness6 from "../assets/womenshoes/lebronwitness6.webp";
 import NikeSuperRepGo3FlyknitNextNature from "../assets/womenshoes/nikesuperrepgo3fluknitnextnature.webp";
 import NikeLegendEssential2 from "../assets/womenshoes/nikelegendessential2.webp";
 
+import kairforce1lewhite from "../assets/Featured/kairforce1lewhite.png";
+import kairforce1loweasyon from "../assets/Featured/kairforce1loweasyon.png";
+import kairforce1lv8 from "../assets/Featured/kairforce1lv8.png";
+import kforce1loweasyonlv83 from "../assets/Featured/kforce1loweasyonlv83.png";
+import knikeairforce1bw from "../assets/Featured/knikeairforce1bw.png";
+import mairforce1lowevo from "../assets/Featured/mairforce1lowevo.png";
+import mairforce107 from "../assets/Featured/mairforce107.png";
+import mairforce107n7 from "../assets/Featured/mairforce107n7.png";
+import mnikelunarforce1 from "../assets/Featured/mnikelunarforce1.png";
+import wairforce1wild from "../assets/Featured/wairforce1wild.jpeg";
+import wforce1lowlx from "../assets/Featured/wforce1lowlx.png";
+import wnikeairforce1premium from "../assets/Featured/wnikeairforce1premium.png";
 export const NavLinks = [
   {
     id: 0,
@@ -195,48 +207,48 @@ export const NewArrivals = [
   },
 ];
 
-export const Featured = [
+export const FeaturedMenu = [
   {
-    id: 0,
-    name: "All Featured",
-    type: "featured",
+    id: "all",
+    title: "All Featured",
+    type: "featured/all",
   },
   {
-    id: 1,
-    name: "Air Force 1",
-    type: "featured",
+    id: "airforce",
+    title: "Air Force 1",
+    type: "featured/airforce",
   },
   {
-    id: 2,
-    name: "Jordan 1",
-    type: "featured",
+    id: "jordan",
+    title: "Jordan 1",
+    type: "featured/jordan",
   },
   {
-    id: 3,
-    name: "Air Max 270",
-    type: "featured",
+    id: "airmax",
+    title: "Air Max",
+    type: "featured/airmax",
   },
 ];
 
 export const Shoes = [
   {
     id: 0,
-    name: "All Shoes",
+    title: "All Shoes",
     type: "shoes",
   },
   {
     id: 1,
-    name: "Jordan Shoes",
+    title: "Jordan Shoes",
     type: "shoes/jordan",
   },
   {
     id: 2,
-    name: "Running Shoes",
+    title: "Running Shoes",
     type: "shoes/running",
   },
   {
     id: 3,
-    name: "BasketBall Shoes",
+    title: "BasketBall Shoes",
     type: "shoes/basketball",
   },
 ];
@@ -244,22 +256,22 @@ export const Shoes = [
 export const Clothing = [
   {
     id: 0,
-    name: "All Clothing",
+    title: "All Clothing",
     type: "clothing",
   },
   {
     id: 1,
-    name: "Tops & T-shirts",
+    title: "Tops & T-shirts",
     type: "clothing",
   },
   {
     id: 2,
-    name: "Shorts",
+    title: "Shorts",
     type: "clothing",
   },
   {
     id: 3,
-    name: "Hoodies & Pullovers",
+    title: "Hoodies & Pullovers",
     type: "clothing",
   },
 ];
@@ -267,22 +279,22 @@ export const Clothing = [
 export const Kids = [
   {
     id: 0,
-    name: "All Shoes",
+    title: "All Shoes",
     type: "kids",
   },
   {
     id: 1,
-    name: "Jordan Shoes",
+    title: "Jordan Shoes",
     type: "kids/jordan",
   },
   {
     id: 2,
-    name: "Basketball Shoes",
+    title: "Basketball Shoes",
     type: "kids/basketball",
   },
   {
     id: 3,
-    name: "Running Shoes",
+    title: "Running Shoes",
     type: "kids/running",
   },
 ];
@@ -1216,5 +1228,241 @@ export const WomenShoes = [
     filter: ["all", "training"],
     color: "2 Colors",
     price: "$65",
+  },
+];
+
+export const FeaturedShoes = [
+  {
+    id: 0,
+    type: "Air Force 1 LE",
+    image: kairforce1lewhite,
+    filter: ["all", "airforce"],
+    color: "3 colors",
+    price: "$90",
+  },
+  {
+    id: 1,
+    type: "Air Force 1 Low Easy On",
+    image: kairforce1loweasyon,
+    filter: ["all", "airforce"],
+    color: "2 colors",
+    price: "$60",
+  },
+  {
+    id: 2,
+    type: "Air Force 1 LV8",
+    image: kairforce1lv8,
+    filter: ["all", "airforce"],
+    color: "5 colors",
+    price: "$110",
+  },
+  {
+    id: 3,
+    type: "Air Force 1 Low Easy On LV8",
+    image: kforce1loweasyonlv83,
+    filter: ["all", "airforce"],
+    color: "3 colors",
+    price: "$120",
+  },
+  {
+    id: 4,
+    type: "Air Force 1",
+    image: knikeairforce1bw,
+    filter: ["all", "airforce"],
+    color: "3 colors",
+    price: "$80",
+  },
+  {
+    id: 5,
+    type: "Nike Air Force 1 LV 82",
+    image: NikeAirForce1LV82,
+    filter: ["all", "airforce"],
+    color: "2 colors",
+    price: "$80",
+  },
+  {
+    id: 6,
+    type: "Air Force 107 N7",
+    image: mairforce107n7,
+    filter: ["all", "airforce"],
+    color: "3 colors",
+    price: "$100",
+  },
+  {
+    id: 7,
+    type: "Air Force 1 Low EVO",
+    image: mairforce1lowevo,
+    filter: ["all", "airforce"],
+    color: "3 colors",
+    price: "$75",
+  },
+  {
+    id: 8,
+    type: "Air Force 1'07",
+    image: mairforce107,
+    filter: ["all", "airforce"],
+    color: "3 colors",
+    price: "$90",
+  },
+  {
+    id: 9,
+    type: "Nike Lunar Force 1",
+    image: mnikelunarforce1,
+    filter: ["all", "airforce"],
+    color: "3 colors",
+    price: "$150",
+  },
+  {
+    id: 10,
+    type: "Air Force 1 Wild",
+    image: wairforce1wild,
+    filter: ["all", "airforce"],
+    color: "3 colors",
+    price: "$140",
+  },
+  {
+    id: 11,
+    type: "Air Force 1 Low LX",
+    image: wforce1lowlx,
+    filter: ["all", "airforce"],
+    color: "3 colors",
+    price: "$90",
+  },
+  {
+    id: 12,
+    type: "Air Force 1 Premium",
+    image: wnikeairforce1premium,
+    filter: ["all", "airforce"],
+    color: "3 colors",
+    price: "$100",
+  },
+  {
+    id: 13,
+    type: "Air Force 1'07 LV8",
+    image: wnikeairforce1premium,
+    filter: ["all", "airforce"],
+    color: "3 colors",
+    price: "$90",
+  },
+  {
+    id: 14,
+    type: "Jordan 1 High OG",
+    image: AirJordan1HighOG,
+    filter: ["all", "jordan"],
+    color: "3 colors",
+    price: "$80",
+  },
+  {
+    id: 15,
+    type: "Air jordan 1 Low",
+    image: AirJordan1Low,
+    filter: ["all", "jordan"],
+    color: "3 colors",
+    price: "$100",
+  },
+  {
+    id: 16,
+    type: "Jordan retro 6",
+    image: JordanRetro6,
+    filter: ["all", "jordan"],
+    color: "2 colors",
+    price: "$200",
+  },
+  {
+    id: 17,
+    type: "Air Jordan 1 Elevate High",
+    image: AirJordan1ElevateHigh,
+    filter: ["all", "jordan"],
+    color: "2 colors",
+    price: "$88",
+  },
+  {
+    id: 18,
+    type: "Air Jordan 1 Low SE",
+    image: AirJordan1LowSE,
+    filter: ["all", "jordan"],
+    color: "5 colors",
+    price: "$100",
+  },
+  {
+    id: 19,
+    type: "Air Jordan 1 Mid SE",
+    image: AirJordan1MidSE,
+    filter: ["all", "jordan"],
+    color: "3 colors",
+    price: "$72",
+  },
+  {
+    id: 20,
+    type: "Air Jordan 3 Retro",
+    image: AirJordan3Retro,
+    filter: ["all", "jordan"],
+    color: "2 colors",
+    price: "$150",
+  },
+  {
+    id: 21,
+    type: "Air Jordan XXXVIII Low",
+    image: AirJordanXXXVIILow,
+    filter: ["all", "jordan"],
+    color: "2 colors",
+    price: "$100",
+  },
+
+  {
+    id: 22,
+    type: "Air Max 270",
+    image: NikeAirMax270Kids,
+    filter: ["all", "airmax"],
+    color: "5 colors",
+    price: "$160",
+  },
+  {
+    id: 23,
+    type: "Air Max 90",
+    image: airMax90,
+    filter: ["all", "airmax"],
+    color: "3 colors",
+    price: "$140",
+  },
+  {
+    id: 24,
+    type: "Air Max Plus",
+    image: NikeAirMaxPlus,
+    filter: ["all", "airmax"],
+    color: "2 colors",
+    price: "$100",
+  },
+  {
+    id: 25,
+    type: "Air Max 1 Premium ",
+    image: NikeAirMaxPremium,
+    filter: ["all", "airmax"],
+    color: "4 colors",
+    price: "$160",
+  },
+  {
+    id: 26,
+    type: "Air Max 97",
+    image: NikeAirMax97,
+    filter: ["all", "airmax"],
+    color: "3 colors",
+    price: "$190",
+  },
+  {
+    id: 27,
+    type: "Air Max 90 SE",
+    image: NikeAirMax90SE,
+    filter: ["all", "airmax"],
+    color: "2 colors",
+    price: "$160",
+  },
+  {
+    id: 28,
+    type: "Air Max 270",
+    image: NikeAirMax270,
+    filter: ["all", "airmax"],
+    color: "4 colors",
+    price: "$160",
   },
 ];

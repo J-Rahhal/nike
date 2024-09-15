@@ -12,7 +12,7 @@ const FooterSection = ({ section, text }) => {
             key={item.id}
             className="block text-xs text-gray-600 md:text-lg lg:text-xl"
           >
-            {item.name}
+            {item.title}
           </Link>
         );
       })}

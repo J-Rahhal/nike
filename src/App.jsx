@@ -7,6 +7,7 @@ import Kids from "./pages/Kids";
 import Men from "./pages/Men";
 import Women from "./pages/Women";
 import AllShoes from "./pages/AllShoes";
+import Featured from "./pages/Featured";
 const App = () => {
   return (
     <Routes>
@@ -18,13 +19,14 @@ const App = () => {
         <Route path="/men" element={<Men />} />
         <Route path="/women" element={<Women />} />
         <Route path="/shoes" element={<AllShoes />} />
-        {/* <Route path ="/jordan" */}
+        <Route path="/featured" element={<Featured />} />
 
         <Route path="/accessories/:subcategory?" element={<Accessories />} />
         <Route path="/kids/:subcategory?" element={<Kids />} />
         <Route path="/men/:subcategory?" element={<Men />} />
         <Route path="/women/:subcategory?" element={<Women />} />
         <Route path="/shoes/:subcategory?" element={<AllShoes />} />
+        <Route path="/featured/:subcategory" element={<Featured />} />
       </Route>
     </Routes>
   );
