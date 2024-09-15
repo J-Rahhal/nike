@@ -9,7 +9,7 @@ const CategoriesNav = ({ categoryArr, link }) => {
           return (
             <li key={category.id}>
               <Link
-                to={`/${link}/` + category.id}
+                to={`/${link.replace(" ", "").toLowerCase()}/` + category.id}
                 className="hover:text-gray-400"
               >
                 {category.title}

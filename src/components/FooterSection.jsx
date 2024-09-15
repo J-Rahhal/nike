@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterSection = ({ section, text }) => {
   return (
@@ -6,12 +7,13 @@ const FooterSection = ({ section, text }) => {
       <h4 className="font-bold tracking-wide py-4">{text}</h4>
       {section.map((item) => {
         return (
-          <p
+          <Link
+            to={"/" + item.name.replace(" ", "").toLowerCase()}
             key={item.id}
-            className="text-xs text-gray-600 md:text-lg lg:text-xl"
+            className="block text-xs text-gray-600 md:text-lg lg:text-xl"
           >
             {item.name}
-          </p>
+          </Link>
         );
       })}
     </div>

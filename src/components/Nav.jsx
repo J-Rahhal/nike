@@ -38,7 +38,7 @@ const Nav = () => {
           {NavLinks.map((link) => {
             return (
               <li
-                className="cursor-pointer hover:underline hover:underline-offset-4"
+                className="cursor-pointer hover:underline hover:underline-offset-4 md:text-lg lg:text-xl"
                 key={link.id}
               >
                 <Link to={"/" + link.title.toLowerCase()}>{link.title}</Link>
