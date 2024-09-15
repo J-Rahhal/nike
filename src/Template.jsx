@@ -8,6 +8,7 @@ const Template = () => {
     <div className="min-h-screen">
       <Nav />
       <Outlet />
+      <div className="border"></div>
       <Footer />
     </div>
   );

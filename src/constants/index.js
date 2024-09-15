@@ -78,6 +78,30 @@ import NikeFreeMetcon5 from "../assets/menshoes/nikefreemetcon5.webp";
 import NikeMetcon8 from "../assets/menshoes/nikemetcon8.webp";
 import NikeAirMaxAlphaTrainer5 from "../assets/menshoes/nikeairmaxalphatrainer5.webp";
 
+import NikeGammaForce from "../assets/womenshoes/nikegammaforce.webp";
+import NikeTechHera from "../assets/womenshoes/niketechhera.webp";
+import NikeFreeMetcon5Women from "../assets/womenshoes/nikefreemetcon5.webp";
+import NikePegasus40Women from "../assets/womenshoes/nikepegasus40.webp";
+import NikeCourtLegacyLift from "../assets/womenshoes/nikecourtlegacylift.webp";
+import NikeCourtLegacyNestNature from "../assets/womenshoes/nikecourtlegacynextnature.webp";
+import NikeAirMax90SE from "../assets/womenshoes/nikeairmax90se.webp";
+import NikeDunkHigh from "../assets/womenshoes/nikedunkhigh.webp";
+import NikeAirMax270Women from "../assets/womenshoes/nikeairmax270.webp";
+import NikeAirForce107LV8 from "../assets/womenshoes/nikeairforce107lv8.webp";
+import AirJordan3Retro from "../assets/womenshoes/airjordan3retro.webp";
+import JumpmanTwoTrey from "../assets/womenshoes/jumpmantwotrey.webp";
+import AirJordan1ElevateHigh from "../assets/womenshoes/airjordan1elevatehigh.webp";
+import AirJordan1LowSE from "../assets/womenshoes/airjordan1lowse.webp";
+import AirJordan1MidSE from "../assets/womenshoes/airjordan1midse.webp";
+import NikePegasus39 from "../assets/womenshoes/nikepegasus39.webp";
+import NikeReactInfinity3Premium from "../assets/womenshoes/nikereactinfinity3premium.webp";
+import NikeWinflo8Premium from "../assets/womenshoes/nikewinflo8premium.webp";
+import Tatum1BarbershopWomen from "../assets/womenshoes/tatum1barbershop.webp";
+import AirJordanXXXVIILow from "../assets/womenshoes/airjordanxxxviilow.webp";
+import LeBronWitness6 from "../assets/womenshoes/lebronwitness6.webp";
+import NikeSuperRepGo3FlyknitNextNature from "../assets/womenshoes/nikesuperrepgo3fluknitnextnature.webp";
+import NikeLegendEssential2 from "../assets/womenshoes/nikelegendessential2.webp";
+
 export const NavLinks = [
   {
     id: 0,
@@ -944,5 +968,237 @@ export const MenShoes = [
     filter: ["all", "training"],
     color: "11 Colors",
     price: "$90",
+  },
+];
+export const WomenShoes = [
+  {
+    image: NikeGammaForce,
+    id: "1",
+    category: "",
+    name: "Nike Gamma Force",
+    type: "Women's Shoes",
+    filter: ["all", "walking"],
+    color: "4 Colors",
+    price: "$90",
+  },
+  {
+    image: NikeTechHera,
+    id: "2",
+    category: "Member Access",
+    name: "Nike Tech Hera",
+    type: "Women's Shoes",
+    filter: ["all", "walking"],
+    color: "4 Colors",
+    price: "$110",
+  },
+  {
+    image: NikeFreeMetcon5Women,
+    id: "3",
+    category: "Best Seller",
+    name: "Nike Free Metcon 5",
+    type: "Women's Training Shoes",
+    filter: ["all", "training"],
+    color: "5 Colors",
+    price: "$120",
+  },
+  {
+    image: NikePegasus40Women,
+    id: "4",
+    category: "Best Seller",
+    name: "Nike Pegasus 40",
+    type: "Women's Road Running Shoes",
+    filter: ["all", "running"],
+    color: "4 Colors",
+    price: "$130",
+  },
+  {
+    image: NikeCourtLegacyLift,
+    id: "5",
+    category: "Just In",
+    name: "Nike Court Legacy Lift",
+    type: "Women's Shoes",
+    filter: ["all", "walking"],
+    color: "6 Colors",
+    price: "$90",
+  },
+  {
+    image: NikeCourtLegacyNestNature,
+    id: "6",
+    category: "Sustainable Materials",
+    name: "Nike Court Legacy Next Nature",
+    type: "Women's Shoes",
+    filter: ["all", "walking"],
+    color: "5 Colors",
+    price: "$70",
+  },
+  {
+    image: NikeAirMax90SE,
+    id: "7",
+    category: "Member Access",
+    name: "Nike Air Max 90 SE",
+    type: "Women's Shoes",
+    filter: ["all", "walking"],
+    color: "14 Colors",
+    price: "$140",
+  },
+  {
+    image: NikeDunkHigh,
+    id: "8",
+    category: "",
+    name: "Nike Dunk High",
+    type: "Women's Shoes",
+    filter: ["all", "walking"],
+    color: "1Colors",
+    price: "$125",
+  },
+  {
+    image: NikeAirMax270Women,
+    id: "9",
+    category: "",
+    name: "Nike Air Max 270",
+    type: "Women's Shoes",
+    filter: ["all", "walking"],
+    color: "11 Colors",
+    price: "$160",
+  },
+  {
+    image: NikeAirForce107LV8,
+    id: "10",
+    category: "",
+    name: "Nike Air Force 1 '07 LV8",
+    type: "Women's Shoes",
+    filter: ["all", "walking"],
+    color: "1 Colors",
+    price: "$120",
+  },
+  {
+    image: AirJordan3Retro,
+    id: "11",
+    category: "Coming Soon",
+    name: "Air Jordan 3 Retro",
+    type: "Women's Shoes",
+    filter: ["all", "Jordan"],
+    color: "6 Colors",
+    price: "$200",
+  },
+  {
+    image: JumpmanTwoTrey,
+    id: "12",
+    category: "Just In",
+    name: "Jumpman Two Trey",
+    type: "Women's Shoes",
+    filter: ["all", "jordan"],
+    color: "7 Colors",
+    price: "$155",
+  },
+  {
+    image: AirJordan1ElevateHigh,
+    id: "13",
+    category: "Best Seller",
+    name: "Air Jordan 1 Elevate High",
+    type: "Women's Shoes",
+    filter: ["all", "jordan"],
+    color: "5 Colors",
+    price: "$145",
+  },
+  {
+    image: AirJordan1LowSE,
+    id: "14",
+    category: "Best Seller",
+    name: "Air Jordan 1 Low SE",
+    type: "Women's Shoes",
+    filter: ["all", "jordan"],
+    color: "4 Colors",
+    price: "$120",
+  },
+  {
+    image: AirJordan1MidSE,
+    id: "15",
+    category: "Best Seller",
+    name: "Air Jordan 1 Mid SE",
+    type: "Women's Shoes",
+    filter: ["all", "jordan"],
+    color: "6 Colors",
+    price: "$135",
+  },
+  {
+    image: NikePegasus39,
+    id: "16",
+    category: "",
+    name: "Nike Pegasus 39",
+    type: "Women's Road running Shoes",
+    filter: ["all", "running"],
+    color: "20 Colors",
+    price: "$76.97",
+  },
+  {
+    image: NikeReactInfinity3Premium,
+    id: "17",
+    category: "",
+    name: "Nike React Infinity 3 Premium",
+    type: "Women's road Running Shoes",
+    filter: ["all", "running"],
+    color: "17 Colors",
+    price: "$170",
+  },
+  {
+    image: NikeWinflo8Premium,
+    id: "18",
+    category: "",
+    name: "Nike Winflo 8 Premium",
+    type: "Women's Road Running Shoes",
+    filter: ["all", "running"],
+    color: "2 Colors",
+    price: "$63.97",
+  },
+  {
+    image: Tatum1BarbershopWomen,
+    id: "19",
+    category: "Just In",
+    name: 'Tatum 1 "Barbershop"',
+    type: "Basketball Shoes",
+    filter: ["all", "basketball"],
+    color: "1 Colors",
+    price: "$120",
+  },
+  {
+    image: AirJordanXXXVIILow,
+    id: "20",
+    category: "",
+    name: 'Tatum 1 "Barbershop"',
+    type: "Basketball Shoes",
+    filter: ["all", "basketball"],
+    color: "5 Colors",
+    price: "$175",
+  },
+  {
+    image: LeBronWitness6,
+    id: "21",
+    category: "",
+    name: "LeBron Witness 6 (Team)",
+    type: "Basketball Shoes",
+    filter: ["all", "basketball"],
+    color: "5 Colors",
+    price: "$89.97",
+  },
+  {
+    image: NikeSuperRepGo3FlyknitNextNature,
+    id: "22",
+    category: "Just In",
+    name: "Nike SuperRep Go 3 Flyknit Next Nature",
+    type: "Women's Training Shoes",
+    filter: ["all", "training"],
+    color: "9 Colors",
+    price: "$65.97",
+  },
+  {
+    image: NikeLegendEssential2,
+    id: "23",
+    category: "",
+    name: "Nike Legend Essential 2",
+    type: "Women's Training Shoes",
+    filter: ["all", "training"],
+    color: "2 Colors",
+    price: "$65",
   },
 ];

@@ -1,21 +1,21 @@
 import React from "react";
-import { Categories, MenShoes } from "../constants/index";
+import { useParams } from "react-router-dom";
+import { Categories, WomenShoes } from "../constants";
 import Title from "../components/Title";
 import CategoriesNav from "../components/CategoriesNav";
 import CardGrid from "../components/CardGrid";
-import { useParams } from "react-router-dom";
 
-const Men = () => {
+const Women = () => {
   let { subcategory = "all" } = useParams();
   return (
     <div className="flex flex-col gap-5 py-10">
-      <Title text={"Men's Corner"} />
+      <Title text={"Women's Corner"} />
       <div className="border"></div>
-      <CategoriesNav categoryArr={Categories} link={"men"} />
+      <CategoriesNav categoryArr={Categories} link={"women"} />
       <div className="border"></div>
-      <CardGrid ItemArr={MenShoes} subcategory={subcategory} />
+      <CardGrid ItemArr={WomenShoes} subcategory={subcategory} />
     </div>
   );
 };
 
-export default Men;
+export default Women;
