@@ -54,6 +54,30 @@ import NikeVaporEdgeShark2 from "../assets/kidsshoes/nikevaporedgeshark2.webp";
 import NikeJRZoomMercurialSuperfly9ProXXVFG from "../assets/kidsshoes/nikejrzoommercurialsuperfly9proxxvfg.webp";
 import NikeFutureField from "../assets/kidsshoes/nikefuturefield.webp";
 
+import nikeDunkLow from "../assets/menshoes/nikedunklow.webp";
+import retroSeCraft from "../assets/menshoes/5retrosecraft.webp";
+import airForce107 from "../assets/menshoes/airforce107.webp";
+import airMax90 from "../assets/menshoes/airmax90.webp";
+import nikePegasus40 from "../assets/menshoes/pegasus40.webp";
+import nikeInvincible3 from "../assets/menshoes/invincible3.webp";
+import LeBronXXFourHorsemen from "../assets/menshoes/lebronxxfourhorsemen.webp";
+import Tatum1Barbershop from "../assets/menshoes/tatum1barbershop.webp";
+import AirVaporMax2023Flyknit from "../assets/menshoes/vapormax2023flyknit.webp";
+import MaxPulse from "../assets/menshoes/airmaxpulse.webp";
+import AirMax186 from "../assets/menshoes/nikeairmax186oggnrg.webp";
+import JordanRetro6 from "../assets/menshoes/jordanretro6gnrg.webp";
+import NikeDunkHighRetro from "../assets/menshoes/nikedunkhighretro.webp";
+import NikeBlazerMid77 from "../assets/menshoes/nikeblazermid77.webp";
+import NikeAirMax97 from "../assets/menshoes/nikeairmax97.webp";
+import NikeAirMax270 from "../assets/menshoes/nikeairmax270.webp";
+import NikeAirMaxPlus from "../assets/menshoes/nikeairmaxplus.webp";
+import NikeAirMaxPremium from "../assets/menshoes/nikeairmax1premium2.webp";
+import NikeKillShot2Leather from "../assets/menshoes/nikekillshot2leather.webp";
+import AirJordan1Low from "../assets/menshoes/airjordan1low.webp";
+import NikeFreeMetcon5 from "../assets/menshoes/nikefreemetcon5.webp";
+import NikeMetcon8 from "../assets/menshoes/nikemetcon8.webp";
+import NikeAirMaxAlphaTrainer5 from "../assets/menshoes/nikeairmaxalphatrainer5.webp";
+
 export const NavLinks = [
   {
     id: 0,
@@ -687,5 +711,238 @@ export const KidsShoes = [
     filter: ["all", "training"],
     color: "3 Colors",
     price: "$50",
+  },
+];
+
+export const MenShoes = [
+  {
+    image: nikeDunkLow,
+    id: "1",
+    category: "Just In",
+    name: "Nike Dunk Low",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "1 Colors",
+    price: "$110",
+  },
+  {
+    image: retroSeCraft,
+    id: "2",
+    category: "Just In",
+    name: "Air Jordan 5 Retro SE Craft",
+    type: "Men's Shoes",
+    filter: ["all", "jordan"],
+    color: "1 Colors",
+    price: "$210",
+  },
+  {
+    image: airForce107,
+    id: "3",
+    category: "Best Seller",
+    name: "Nike Air Force 1 '07",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "4 Colors",
+    price: "$110",
+  },
+  {
+    image: airMax90,
+    id: "4",
+    category: "Best Seller",
+    name: "Nike Air Max 90",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "4 Colors",
+    price: "$130",
+  },
+  {
+    image: nikePegasus40,
+    id: "5",
+    category: "Best Seller",
+    name: "Nike pegasus 40",
+    type: "Men's Road Running Shoes",
+    filter: ["running", "all"],
+    color: "9 Colors",
+    price: "$130",
+  },
+  {
+    image: nikeInvincible3,
+    id: "6",
+    category: "Just In",
+    name: "Nike Invincible 3",
+    type: "Men's Road Running Shoes",
+    filter: ["running", "all"],
+    color: "5 Colors",
+    price: "$180",
+  },
+  {
+    image: LeBronXXFourHorsemen,
+    id: "7",
+    category: "",
+    name: 'LeBron XX "Four Horsemen"',
+    type: "Basketball Shoes",
+    filter: ["basketball", "all"],
+    color: "13 colors",
+    price: "$210",
+  },
+  {
+    image: Tatum1Barbershop,
+    id: " 8",
+    category: "Just In",
+    name: 'Tatum 1 "Barbershop"',
+    type: "Basketball Shoes",
+    filter: ["basketball", "all"],
+    color: "1 colors",
+    price: "$120",
+  },
+  {
+    image: AirVaporMax2023Flyknit,
+    id: " 9",
+    category: "Comming Soon",
+    name: "Nike Air VaporMax 2023 Flyknit",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "2 colors",
+    price: "$210",
+  },
+  {
+    image: MaxPulse,
+    id: "10",
+    category: "Best Seller",
+    name: "Nike Air Max Pulse",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "2 Colors",
+    price: "$150",
+  },
+  {
+    image: AirMax186,
+    id: "11",
+    category: "Best Seller",
+    name: "Nike Air Max 1 '86 OG G NRG",
+    type: "Men's Golf Shoes",
+    filter: ["all", "walking"],
+    color: "1 Colors",
+    price: "$170",
+  },
+  {
+    image: JordanRetro6,
+    id: "12",
+    category: "Best Seller",
+    name: "Jordan Retro 6 G NRG",
+    type: "Men's Golf Shoes",
+    filter: ["all", "jordan"],
+    color: "1 Colors",
+    price: "$220",
+  },
+  {
+    image: NikeDunkHighRetro,
+    id: "13",
+    category: "Comming Soon",
+    name: "Nike Dunk High Retro",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "9 Colors",
+    price: "$125",
+  },
+  {
+    image: NikeBlazerMid77,
+    id: "14",
+    category: "Best Seller",
+    name: "Nike Blazer Mid '77 Vintage",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "6 Colors",
+    price: "$105",
+  },
+  {
+    image: NikeAirMax97,
+    id: "15",
+    category: "Best Seller",
+    name: "Nike Air Max 97",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "9 Colors",
+    price: "$175",
+  },
+  {
+    image: NikeAirMax270,
+    id: "16",
+    category: "Best Seller",
+    name: "Nike Air Max 270",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "12 Colors",
+    price: "$160",
+  },
+  {
+    image: NikeAirMaxPlus,
+    id: "17",
+    category: "Best Seller",
+    name: "Nike Air Max Plus",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "10 Colors",
+    price: "$175",
+  },
+  {
+    image: NikeAirMaxPremium,
+    id: "18",
+    category: "",
+    name: "Nike Air Max 1 Premium 2",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "1 Colors",
+    price: "$108.97",
+  },
+  {
+    image: NikeKillShot2Leather,
+    id: "19",
+    category: "Best Seller",
+    name: "Nike Killshot 2 Leather",
+    type: "Men's Shoes",
+    filter: ["all", "walking"],
+    color: "3 Colors",
+    price: "$90",
+  },
+  {
+    image: AirJordan1Low,
+    id: "20",
+    category: "Best Seller",
+    name: "Air Jordan 1 Low",
+    type: "Men's Shoes",
+    filter: ["all", "jordan"],
+    color: "7 Colors",
+    price: "$110",
+  },
+  {
+    image: NikeFreeMetcon5,
+    id: "21",
+    category: "Best Seller",
+    name: "Nike Free Metcon 5",
+    type: "Men's Training Shoes",
+    filter: ["all", "training"],
+    color: "5 Colors",
+    price: "$120",
+  },
+  {
+    image: NikeMetcon8,
+    id: "22",
+    category: "",
+    name: "Nike Metcon 8",
+    type: "Men's Training Shoes",
+    filter: ["all", "training"],
+    color: "10 Colors",
+    price: "$130",
+  },
+  {
+    image: NikeAirMaxAlphaTrainer5,
+    id: "23",
+    category: "Best Seller ",
+    name: "Nike Zoom Metcon Turbo 2",
+    type: "Men's Training Shoes",
+    filter: ["all", "training"],
+    color: "11 Colors",
+    price: "$90",
   },
 ];
