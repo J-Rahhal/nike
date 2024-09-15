@@ -33,7 +33,7 @@ const Nav = () => {
                 className="cursor-pointer hover:underline hover:underline-offset-4"
                 key={link.id}
               >
-                <Link to={link.id}>{link.title}</Link>
+                <Link to={"/" + link.title.toLowerCase()}>{link.title}</Link>
               </li>
             );
           })}
