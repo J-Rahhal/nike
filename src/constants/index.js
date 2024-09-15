@@ -35,6 +35,25 @@ import NikeSparkLightweight from "../assets/accessories/nikesparklightweight.web
 import NikeEveryday from "../assets/accessories/nikeeveryday.webp";
 import HighNikeEveryday from "../assets/accessories/highnikeeveryday.webp";
 
+import LeBronXX from "../assets/kidsshoes/lebronxx.webp";
+import NikeBlazerMid77Kids from "../assets/kidsshoes/nikeblazermid77.webp";
+import AirJordan1HighOG from "../assets/kidsshoes/airjordan1highog.webp";
+import NikeAirZoomPegasus40 from "../assets/kidsshoes/nikeairzoompegasus40.webp";
+import NikeFlexRunner2 from "../assets/kidsshoes/nikeflexrunner2.webp";
+import NikeAirForce1LV82 from "../assets/kidsshoes/nikeairforce1lv82.webp";
+import NikeAirMax270Kids from "../assets/kidsshoes/nikeairmax270.webp";
+import AirJordan2RetroKids from "../assets/kidsshoes/airjordan2retro.webp";
+import NikeHuaracheRun from "../assets/kidsshoes/nikehuaracherun.webp";
+import NikeRevolution6 from "../assets/kidsshoes/nikerevolution6.webp";
+import AirJordan13Retro from "../assets/kidsshoes/airjordan13retro.webp";
+import NikeTeamHustleD11 from "../assets/kidsshoes/niketeamhustled11.webp";
+import Freak4 from "../assets/kidsshoes/freak4.webp";
+import NikeAirZoomCrossover from "../assets/kidsshoes/nikeairzoomcrossover.webp";
+import AirJordanXXXVIIKids from "../assets/kidsshoes/airjordanxxxvii.webp";
+import NikeVaporEdgeShark2 from "../assets/kidsshoes/nikevaporedgeshark2.webp";
+import NikeJRZoomMercurialSuperfly9ProXXVFG from "../assets/kidsshoes/nikejrzoommercurialsuperfly9proxxvfg.webp";
+import NikeFutureField from "../assets/kidsshoes/nikefuturefield.webp";
+
 export const NavLinks = [
   {
     id: 0,
@@ -232,6 +251,33 @@ export const AccessoriesCategories = [
   {
     id: "socks",
     title: "Socks",
+  },
+];
+
+export const Categories = [
+  {
+    id: "all",
+    title: "All",
+  },
+  {
+    id: "jordan",
+    title: "Jordan",
+  },
+  {
+    id: "running",
+    title: "Running",
+  },
+  {
+    id: "basketball",
+    title: "Basketball",
+  },
+  {
+    id: "training",
+    title: "Training & Gym",
+  },
+  {
+    id: "walking",
+    title: "Walking",
   },
 ];
 
@@ -458,5 +504,188 @@ export const AccessoriesItems = [
     filter: ["all", "socks"],
     color: "6 Colors",
     price: "$18",
+  },
+];
+
+export const KidsShoes = [
+  {
+    image: LeBronXX,
+    id: "1",
+    category: "Just In",
+    name: "Nike Legend Essential 2",
+    type: "Kids Basketball Shoes",
+    filter: ["all", "basketball"],
+    color: "7 Colors",
+    price: "$160",
+  },
+  {
+    image: NikeBlazerMid77Kids,
+    id: "2",
+    category: "Best Seller",
+    name: "Nike Blazer Mid '77",
+    type: "Kids Shoes",
+    filter: ["walking", "all"],
+    color: "5 Colors",
+    price: "$85",
+  },
+  {
+    image: AirJordan1HighOG,
+    id: "3",
+    category: "Just In",
+    name: "Air Jordan 1 High OG",
+    type: "Kids Shoes",
+    filter: ["all", "jordan"],
+    color: "2 Colors",
+    price: "$140",
+  },
+  {
+    image: NikeAirZoomPegasus40,
+    id: "4",
+    category: "Sustainable Materials",
+    name: "Nike Air Zoom Pegasus 40",
+    type: "Kids Road Running Shoes",
+    filter: ["all", "running"],
+    color: "3 Colors",
+    price: "$105",
+  },
+  {
+    image: NikeFlexRunner2,
+    id: "5",
+    category: "",
+    name: "Nike Flex Runner 2",
+    type: "Kids Road Running Shoes",
+    filter: ["all", "running"],
+    color: "12 Colors",
+    price: "$50",
+  },
+  {
+    image: NikeAirForce1LV82,
+    id: "6",
+    category: "",
+    name: "Nike Air Force 1 LV8 2",
+    type: "Kids Shoes",
+    filter: ["all", "walking"],
+    color: "1 Colors",
+    price: "$95",
+  },
+  {
+    image: NikeAirMax270Kids,
+    id: "7",
+    category: "Best Seller",
+    name: "Nike Air Max 270",
+    type: "Kids Shoes",
+    filter: ["all", "walking"],
+    color: "3 Colors",
+    price: "$130",
+  },
+  {
+    image: AirJordan2RetroKids,
+    id: "8",
+    category: "Just In",
+    name: "Air Jordan 2 Retro",
+    type: "Kids Shoes",
+    filter: ["all", "jordan"],
+    color: "2 Colors",
+    price: "$140",
+  },
+  {
+    image: NikeHuaracheRun,
+    id: "9",
+    category: "",
+    name: "Nike Huarache Run",
+    type: "Kids Shoes",
+    filter: ["all", "walking"],
+    color: "4 Colors",
+    price: "$95",
+  },
+  {
+    image: NikeRevolution6,
+    id: "10",
+    category: "",
+    name: "Nike Revolution 6",
+    type: "Kids Road Running Shoes",
+    filter: ["all", "running"],
+    color: "11 Colors",
+    price: "$65",
+  },
+  {
+    image: AirJordan13Retro,
+    id: "11",
+    category: "Best Seller",
+    name: "Air Jordan 13 Retro",
+    type: "Kids Shoes",
+    filter: ["all", "jordan"],
+    color: "1 Colors",
+    price: "$140",
+  },
+  {
+    image: NikeTeamHustleD11,
+    id: "12",
+    category: "",
+    name: "Nike Team Hustle D 11",
+    type: "Kids Basketball Shoes",
+    filter: ["all", "basketball"],
+    color: "5 Colors",
+    price: "$60",
+  },
+  {
+    image: Freak4,
+    id: "13",
+    category: "",
+    name: "Freak 4",
+    type: "Kids Basketball Shoes",
+    filter: ["all", "basketball"],
+    color: "5 Colors",
+    price: "$105",
+  },
+  {
+    image: NikeAirZoomCrossover,
+    id: "14",
+    category: "",
+    name: "Nike Air Zoom Crossover",
+    type: "Kids Basketball Shoes",
+    filter: ["all", "basketball"],
+    color: "1 Colors",
+    price: "$80",
+  },
+  {
+    image: AirJordanXXXVIIKids,
+    id: "15",
+    category: "Best Seller",
+    name: "Air Jordan XXXVII",
+    type: "Kids Shoes",
+    filter: ["all", "jordan", "basketball"],
+    color: "5 Colors",
+    price: "$140",
+  },
+  {
+    image: NikeVaporEdgeShark2,
+    id: "16",
+    category: "Sustainable Materials",
+    name: "Nike Vapor Edge Shark 2",
+    type: "Kids Training Shoes",
+    filter: ["all", "training"],
+    color: "4 Colors",
+    price: "$45",
+  },
+  {
+    image: NikeJRZoomMercurialSuperfly9ProXXVFG,
+    id: "17",
+    category: "Sustainable Materials",
+    name: "Nike Jr. Zoom Mercurial Superfly 9 Pro XXV FG",
+    type: "Kids Training Shoes",
+    filter: ["all", "training"],
+    color: "5 Colors",
+    price: "$130",
+  },
+  {
+    image: NikeFutureField,
+    id: "18",
+    category: "Sustainable Materials",
+    name: "Nike Future Field",
+    type: "Kids Training Shoes",
+    filter: ["all", "training"],
+    color: "3 Colors",
+    price: "$50",
   },
 ];

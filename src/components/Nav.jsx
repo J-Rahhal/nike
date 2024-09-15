@@ -1,15 +1,23 @@
 import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { NavLinks } from "../constants/index";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { IoCloseOutline } from "react-icons/io5";
 
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
+  const navigate = useNavigate();
 
   const ToggleMenu = () => {
     setToggle(!toggle);
   };
+
+  const handleClick = (event, path) => {
+    event.preventDefault();
+    navigate(path);
+    ToggleMenu();
+  };
+
   return (
     <div className="mx-4">
       <div className="hidden md:flex items-center justify-between">
@@ -57,7 +65,7 @@ const Nav = () => {
         <CiMenuBurger className="cursor-pointer" onClick={ToggleMenu} />
       </div>
       {toggle && (
-        <div className="absolute top-0 z-50 left-0 h-screen overflow-hidden w-full bg-white">
+        <div className="fixed top-0 z-50 left-0 h-screen overflow-hidden w-full bg-white ">
           <div>
             <IoCloseOutline
               size={24}
@@ -66,14 +74,17 @@ const Nav = () => {
             />
           </div>
 
-          <ul className="flex flex-col items-center justify-evenly h-full ">
+          <ul className="flex flex-col items-center justify-evenly h-full">
             {NavLinks.map((link) => {
               return (
-                <li
-                  className="cursor-pointer hover:underline hover:underline-offset-4"
-                  key={link.id}
-                >
-                  <Link to={link.id}>{link.title}</Link>
+                <li key={link.id}>
+                  <Link
+                    to={`/${link.title.toLowerCase()}`}
+                    className="cursor-pointer hover:underline hover:underline-offset-4"
+                    onClick={(e) => handleClick(e, link.title.toLowerCase())}
+                  >
+                    {link.title}
+                  </Link>
                 </li>
               );
             })}
