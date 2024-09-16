@@ -11,6 +11,7 @@ const FooterSection = ({ section, text }) => {
             to={`/${item.type}`}
             key={item.id}
             className="block text-xs text-gray-600 md:text-lg lg:text-xl"
+            onClick={() => window.scrollTo(0, 0)}
           >
             {item.title}
           </Link>
