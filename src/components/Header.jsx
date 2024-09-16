@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-3 relative">
       <div className="w-full object-cover">
-        <img src="../../src/assets/header/header.jpg" alt="airforce" />
+        <img src="../assets/header/header.jpg" alt="air force" />
       </div>
       <div className="flex flex-col items-center justify-center gap-4 absolute text-black lg:gap-12">
         <p className="text-sm font-semibold md:text-xl lg:text-3xl">
