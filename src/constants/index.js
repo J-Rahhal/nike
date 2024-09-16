@@ -114,6 +114,41 @@ import mnikelunarforce1 from "../assets/Featured/mnikelunarforce1.png";
 import wairforce1wild from "../assets/Featured/wairforce1wild.jpeg";
 import wforce1lowlx from "../assets/Featured/wforce1lowlx.png";
 import wnikeairforce1premium from "../assets/Featured/wnikeairforce1premium.png";
+
+import ktechfleecehoodie from "../assets/clothing/ktechfleecehoodie.png";
+import ktechfleecesweats from "../assets//clothing/ktechfleecesweats.png";
+import kpullover from "../assets/clothing/kpullover.png";
+import kpullover2 from "../assets/clothing/kpullover2.png";
+import kbasketballshorts from "../assets/clothing/kbasketballshorts.png";
+import knikesweatswearclub from "../assets/clothing/knikesweatswearclub.png";
+import knikesweatswearfleece from "../assets/clothing/knikesweatswearfleece.png";
+import knikedrifitlegend from "../assets/clothing/knikedrifitlegend.png";
+import knikepro from "../assets/clothing/knikepro.png";
+import knikedrifitelite from "../assets/clothing/knikedrifitelite.png";
+import knikesportswearshirt from "../assets/clothing/knikesportswearshirt.png";
+import knikelacross from "../assets/clothing/knikelacross.png";
+
+import mnikesportswearshirt from "../assets/clothing/mknikesportwearclubshirt.png";
+import mnikeclubshorts from "../assets/clothing/mnikeclubshorts.png";
+import mnikeprimaryhoodie from "../assets/clothing/mnikeprimaryhoodie.png";
+import mnikesportswearclubshorts from "../assets/clothing/mnikesportswearclubshorts.png";
+import mkbshorts from "../assets/clothing/mkbshorts.png";
+import mkbhoodie from "../assets/clothing/mkbhoodie.png";
+import mnikesportswearfleecehoodie from "../assets/clothing/mnikesportswearfleecehoodie.png";
+import mnikeacgshirt from "../assets/clothing/mnikeacgshirt.png";
+import mnikepremiumessentialshirt from "../assets/clothing/mnikepremiumessentialshirt.png";
+import mnoctashirt from "../assets/clothing/mnoctashirt.png";
+import wnikewomenbyyoonshirt from "../assets/clothing/wnikewomenbyyoonshirt.png";
+import wnikesportswearshirts from "../assets/clothing/wnikesportswearshirt.jpeg";
+import wnikexjacquemusshirt from "../assets/clothing/wnikexjacquemusshirt.png";
+import wnikeaeroswiftshorts from "../assets/clothing/wnikeaeroswiftshorts.png";
+import wnikeoneshort from "../assets/clothing/wnikeoneshort.png";
+import wnikeone2 from "../assets/clothing/wnikeone2.png";
+import wphoenixfleecehoodie from "../assets/clothing/wphoenixfleecehoodie.png";
+import wphoenixfleecehoodie2 from "../assets/clothing/wphoenixfleecehoodie2.png";
+import wtechfleece from "../assets/clothing/wtechfleece.png";
+import wjordanbrooklynfleece from "../assets/clothing/wjordanbrooklynfleece.png";
+
 export const NavLinks = [
   {
     id: 0,
@@ -257,22 +292,22 @@ export const Clothing = [
   {
     id: 0,
     title: "All Clothing",
-    type: "clothing",
+    type: "clothing/all",
   },
   {
     id: 1,
     title: "Tops & T-shirts",
-    type: "clothing",
+    type: "clothing/tops",
   },
   {
     id: 2,
     title: "Shorts",
-    type: "clothing",
+    type: "clothing/shorts",
   },
   {
     id: 3,
     title: "Hoodies & Pullovers",
-    type: "clothing",
+    type: "clothing/hoodies",
   },
 ];
 
@@ -1464,5 +1499,304 @@ export const FeaturedShoes = [
     filter: ["all", "airmax"],
     color: "4 colors",
     price: "$160",
+  },
+];
+
+export const ClothingMenu = [
+  {
+    id: "all",
+    title: "All Clothing",
+    type: "clothing/all",
+  },
+  {
+    id: "tops",
+    title: "Tops & T-Shirts",
+    type: "clothing/tops",
+  },
+  {
+    id: "shorts",
+    title: "Shorts",
+    type: "clothing/shorts",
+  },
+  {
+    id: "hoodies",
+    title: "Hoodies & Pullovers",
+    type: "clothing/hoodies",
+  },
+];
+
+export const ClothingItems = [
+  {
+    id: 0,
+    type: "Nike SportsWear Tech Fleece",
+    category: "Best Seller",
+    image: ktechfleecehoodie,
+    filter: ["all", "hoodies"],
+    color: "24 colors",
+    price: "$105",
+  },
+  {
+    id: 1,
+    type: "Nike SportsWear Tech Fleece",
+    category: "Best Seller",
+    image: ktechfleecesweats,
+    filter: ["all", "pants"],
+    color: "20 colors",
+    price: "$90",
+  },
+  {
+    id: 2,
+    type: "Nike SportsWear Club Fleece",
+    image: kpullover,
+    filter: ["all", "hoodies"],
+    color: "27 colors",
+    price: "$45",
+  },
+  {
+    id: 3,
+    type: "Nike SportsWear Club Fleece",
+    image: kpullover2,
+    filter: ["all", "hoodies"],
+    color: "2 colors",
+    price: "$60",
+  },
+  {
+    id: 4,
+    type: "Nike DNA",
+    category: "Sustainable Materials",
+    image: kbasketballshorts,
+    filter: ["all", "shorts"],
+    color: "9 colors",
+    price: "$40",
+  },
+  {
+    id: 5,
+    type: "Nike SportsWear Clu",
+    image: knikesweatswearclub,
+    filter: ["all", "shorts"],
+    color: "4 colors",
+    price: "$40",
+  },
+  {
+    id: 6,
+    type: "Nike SportsWear Fleece",
+    category: "Best Seller",
+    image: knikesweatswearfleece,
+    filter: ["all", "hoodies"],
+    color: "2 colors",
+    price: "$74.97",
+  },
+  {
+    id: 7,
+    type: "Nike Dri-FIT Legend",
+    category: "Best Seller",
+    image: knikedrifitlegend,
+    filter: ["all", "tops"],
+    color: "3 colors",
+    price: "$16.97",
+  },
+  {
+    id: 8,
+    type: "Nike Pro",
+    category: "Best Seller",
+    image: knikepro,
+    filter: ["all", "shorts"],
+    color: "9 colors",
+    price: "$27",
+  },
+  {
+    id: 9,
+    type: "Nike Dri-FIT Elite",
+    category: "Sustainable Material",
+    image: knikedrifitelite,
+    filter: ["all", "shorts"],
+    color: "1 color",
+    price: "$105",
+  },
+  {
+    id: 10,
+    type: "Nike SportsWear",
+    image: knikesportswearshirt,
+    filter: ["all", "tops"],
+    color: "1 colors",
+    price: "$24.97",
+  },
+  {
+    id: 11,
+    type: "Nike Lacross",
+    image: knikelacross,
+    filter: ["all", "tops"],
+    color: "24 colors",
+    price: "$15.97",
+  },
+  {
+    id: 12,
+    type: "Nike SportsWear Club",
+    image: mnikesportswearshirt,
+    filter: ["all", "tops"],
+    color: "14 colors",
+    price: "$30",
+  },
+  {
+    id: 13,
+    type: "Nike Club",
+    image: mnikeclubshorts,
+    filter: ["all", "shorts"],
+    color: "16 colors",
+    price: "$50",
+  },
+  {
+    id: 14,
+    type: "Nike Primary",
+    category: "Sustainable Material",
+    image: mnikeprimaryhoodie,
+    filter: ["all", "hoodies"],
+    color: "6 colors",
+    price: "$80",
+  },
+  {
+    id: 15,
+    type: "Nike SportsWear Club",
+    image: mnikesportswearclubshorts,
+    filter: ["all", "shorts"],
+    color: "9 colors",
+    price: "$30.97",
+  },
+  {
+    id: 16,
+    type: "KB",
+    category: "Sustainable Material",
+    image: mkbshorts,
+    filter: ["all", "shorts"],
+    color: "2 colors",
+    price: "$80",
+  },
+  {
+    id: 17,
+    type: "KB",
+    category: "Sustainable Material",
+    image: mkbhoodie,
+    filter: ["all", "hoodies"],
+    color: "2 colors",
+    price: "$125",
+  },
+  {
+    id: 18,
+    type: "Nike SportsWear Club Fleece",
+    category: "Member Product",
+    image: mnikesportswearfleecehoodie,
+    filter: ["all", "hoodies"],
+    color: "17 colors",
+    price: "$65",
+  },
+  {
+    id: 19,
+    type: "Nike ACG",
+    category: "Sustainable Material",
+    image: mnikeacgshirt,
+    filter: ["all", "tops"],
+    color: "6 colors",
+    price: "$45",
+  },
+  {
+    id: 20,
+    type: "Nike Sportswear Premium Essentials",
+    category: "Best Seller",
+    image: mnikepremiumessentialshirt,
+    filter: ["all", "tops"],
+    color: "10 colors",
+    price: "$45",
+  },
+  {
+    id: 21,
+    type: "NOCTA",
+    category: "Just In",
+    image: mnoctashirt,
+    filter: ["all", "tops"],
+    color: "3 colors",
+    price: "$45",
+  },
+  {
+    id: 22,
+    type: "Nike Women by YOON",
+    image: wnikewomenbyyoonshirt,
+    filter: ["all", "tops"],
+    color: "2 colors",
+    price: "$70",
+  },
+  {
+    id: 23,
+    type: "Nike SportsWear ",
+    image: wnikesportswearshirts,
+    filter: ["all", "tops"],
+    color: "2 colors",
+    price: "$75",
+  },
+  {
+    id: 24,
+    type: "Nike x Jacquemus",
+    image: wnikexjacquemusshirt,
+    filter: ["all", "tops"],
+    color: "3 colors",
+    price: "$180",
+  },
+  {
+    id: 25,
+    type: "Nike AeroSwift",
+    category: "Best Seller",
+    image: wnikeaeroswiftshorts,
+    filter: ["all", "shorts"],
+    color: "4 colors",
+    price: "$80",
+  },
+  {
+    id: 26,
+    type: "Nike One",
+    category: "Sustainable Materials",
+    image: wnikeoneshort,
+    filter: ["all", "shorts"],
+    color: "13 colors",
+    price: "$40",
+  },
+  {
+    id: 27,
+    type: "Nike One",
+    category: "Best Seller",
+    image: wnikeone2,
+    filter: ["all", "shorts"],
+    color: "22 colors",
+    price: "$45",
+  },
+  {
+    id: 28,
+    type: "Nike Sportswear Phoenix Fleece",
+    image: wphoenixfleecehoodie,
+    filter: ["all", "hoodies"],
+    color: "11 colors",
+    price: "$75",
+  },
+  {
+    id: 29,
+    type: "Nike Sportswear Phoenix Fleece",
+    image: wphoenixfleecehoodie2,
+    filter: ["all", "hoodies"],
+    color: "15 colors",
+    price: "$75",
+  },
+  {
+    id: 30,
+    type: "Nike Sportswear Tech Fleece",
+    image: wtechfleece,
+    filter: ["all", "hoodies"],
+    color: "5 colors",
+    price: "$130",
+  },
+  {
+    id: 31,
+    type: "Jordan Brooklyn Fleece",
+    image: wjordanbrooklynfleece,
+    filter: ["all", "hoodies"],
+    color: "5 colors",
+    price: "$52.97",
   },
 ];

@@ -11,7 +11,7 @@ const CardGrid = ({ ItemArr, subcategory }) => {
               <div>
                 <p className="py-2 text-red-700">{item.category}</p>
                 <p className="pb-2 text-lg font-semibold">{item.type}</p>
-                <p className="pb-2">{item.color}</p>
+                <p className="pb-2 text-gray-500">{item.color}</p>
                 <p>{item.price}</p>
               </div>
             </div>
