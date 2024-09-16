@@ -4,6 +4,7 @@ import HomeCarousel from "../components/HomeCarousel";
 import { Classics } from "../constants/index";
 import HomeGrid from "../components/HomeGrid";
 import NewArrival from "../components/NewArrival";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -23,9 +24,13 @@ const Home = () => {
         <p className="text-sm pb-4 md:text-lg lg:text-2xl lg:pb-8 lg:pt-4">
           Featuring the Luka 3 'Motorsport' & more
         </p>
-        <button className="bg-black text-white px-4 py-1 rounded-full md:text-lg">
+        <Link
+          to={"/new-arrivals"}
+          className="bg-black text-white px-4 py-1 rounded-full md:text-lg lg:text-2xl"
+          onClick={() => window.scrollTo(0, 0)}
+        >
           View New Arrivals
-        </button>
+        </Link>
       </div>
       <NewArrival />
     </div>

@@ -180,6 +180,18 @@ import wswoosh from "../assets/HomeFitsGrid/wswoosh.png";
 import cortez from "../assets/HomeFitsGrid/cortez.png";
 import freestyle from "../assets/HomeFitsGrid/freestyle.png";
 
+import jordanluka3 from "../assets/newArrivals/jordanluka3.png";
+import duffle from "../assets/newArrivals/duffle.png";
+import monogram from "../assets/newArrivals/monogram.png";
+import airjordanrm from "../assets/newArrivals/airjordanrm.png";
+import airjordanrm2 from "../assets/newArrivals/airjordanrm2.png";
+import nikeyoon1 from "../assets/newArrivals/nikeyoon1.png";
+import nikeyoon2 from "../assets/newArrivals/NIKEYOON2.png";
+import crew from "../assets/newArrivals/crew.png";
+import airjordan3retro from "../assets/newArrivals/airjordanretro3.png";
+import primaloft from "../assets/newArrivals/primaloft.png";
+import acgaysen from "../assets/newArrivals/acgaysen.png";
+
 export const NavLinks = [
   {
     id: 0,
@@ -2135,5 +2147,130 @@ export const fits = [
     filter: ["all", "favorites"],
     color: "1 color",
     price: "$50",
+  },
+];
+
+export const arrivalsMenu = [
+  {
+    id: "all",
+    title: "All",
+    type: "new/all",
+  },
+  {
+    id: "shoes",
+    title: "Shoes",
+    type: "new/shoes",
+  },
+  {
+    id: "bags",
+    title: "Bags",
+    type: "new/bags",
+  },
+  {
+    id: "jackets",
+    title: "Jackets",
+    type: "new/jackets",
+  },
+];
+
+export const ArrivalsItems = [
+  {
+    id: 0,
+    type: 'Luka 3 "Motorsport"',
+    category: "Just In",
+    image: jordanluka3,
+    filter: ["all", "shoes"],
+    color: "1 color",
+    price: "$130",
+  },
+  {
+    id: 1,
+    type: "Jordan Monogram",
+    category: "Just In",
+    image: duffle,
+    filter: ["all", "bags"],
+    color: "1 color",
+    price: "$150",
+  },
+  {
+    id: 2,
+    type: "Jordan Monogram",
+    category: "Just In",
+    image: monogram,
+    filter: ["all", "bags"],
+    color: "1 color",
+    price: "$45",
+  },
+  {
+    id: 3,
+    type: "Air Jordan 4 RM",
+    category: "Just In",
+    image: airjordanrm,
+    filter: ["all", "shoes"],
+    color: "1 color",
+    price: "$150",
+  },
+  {
+    id: 4,
+    type: "Air Jordan 4 RM",
+    category: "Just In",
+    image: airjordanrm2,
+    filter: ["all", "shoes"],
+    color: "1 color",
+    price: "$150",
+  },
+  {
+    id: 5,
+    type: "Nike Women by YOON",
+    category: "Just In",
+    image: nikeyoon1,
+    filter: ["all", "jackets"],
+    color: "1 color",
+    price: "$175",
+  },
+  {
+    id: 6,
+    type: "Nike Women by YOON",
+    category: "Just In",
+    image: nikeyoon2,
+    filter: ["all", "jackets"],
+    color: "1 color",
+    price: "$550",
+  },
+  {
+    id: 7,
+    type: "Serena Williams Design Crew",
+    category: "Comming Soon",
+    image: crew,
+    filter: ["all", "jackets"],
+    color: "1 color",
+    price: "$180",
+  },
+  {
+    id: 8,
+    type: "Air Jordan 3 Retro",
+    category: "Just In",
+    image: airjordan3retro,
+    filter: ["all", "shoes"],
+    color: "1 color",
+    price: "$150",
+  },
+  {
+    id: 9,
+    type: "Nike Trall PrimaLoft",
+    category: "Just In",
+    image: primaloft,
+    filter: ["all", "jackets"],
+    color: "1 color",
+    price: "$160",
+  },
+  {
+    id: 10,
+    type: "Nike ACG Aysen",
+    category: "Just In",
+    image: acgaysen,
+    filter: ["all", "bags"],
+    color: "1 color",
+    price: "$200",
   },
 ];

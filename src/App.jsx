@@ -10,6 +10,7 @@ import AllShoes from "./pages/AllShoes";
 import Featured from "./pages/Featured";
 import Clothing from "./pages/Clothing";
 import Fits from "./pages/Fits";
+import NewArrivals from "./pages/NewArrivals";
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
         <Route path="/shoes" element={<AllShoes />} />
         <Route path="/featured" element={<Featured />} />
         <Route path="/clothing" element={<Clothing />} />
-        <Route Path="/fits" element={<Fits />} />
+        <Route path="/fits" element={<Fits />} />
+        <Route path="/new-arrivals" element={<NewArrivals />} />
 
         <Route path="/accessories/:subcategory?" element={<Accessories />} />
         <Route path="/kids/:subcategory?" element={<Kids />} />
@@ -34,6 +36,7 @@ const App = () => {
         <Route path="/featured/:subcategory?" element={<Featured />} />
         <Route path="/clothing/:subcategory?" element={<Clothing />} />
         <Route path="/fits/:subcategory?" element={<Fits />} />
+        <Route path="/new-arrivals/:subcategory?" element={<NewArrivals />} />
       </Route>
     </Routes>
   );

@@ -10,7 +10,7 @@ const Fits = () => {
 
   return (
     <div className="flex flex-col gap-5 py-5">
-      <Title text={"Clothing"} />
+      <Title text={"Our Selection"} />
       <div className="border"></div>
       <CategoriesNav categoryArr={HomeGridMenu} link={"fits"} />
       <div className="border"></div>
