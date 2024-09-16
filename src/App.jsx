@@ -9,6 +9,7 @@ import Women from "./pages/Women";
 import AllShoes from "./pages/AllShoes";
 import Featured from "./pages/Featured";
 import Clothing from "./pages/Clothing";
+import Fits from "./pages/Fits";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/shoes" element={<AllShoes />} />
         <Route path="/featured" element={<Featured />} />
         <Route path="/clothing" element={<Clothing />} />
+        <Route Path="/fits" element={<Fits />} />
 
         <Route path="/accessories/:subcategory?" element={<Accessories />} />
         <Route path="/kids/:subcategory?" element={<Kids />} />
@@ -31,6 +33,7 @@ const App = () => {
         <Route path="/shoes/:subcategory?" element={<AllShoes />} />
         <Route path="/featured/:subcategory?" element={<Featured />} />
         <Route path="/clothing/:subcategory?" element={<Clothing />} />
+        <Route path="/fits/:subcategory?" element={<Fits />} />
       </Route>
     </Routes>
   );

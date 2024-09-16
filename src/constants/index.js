@@ -149,6 +149,37 @@ import wphoenixfleecehoodie2 from "../assets/clothing/wphoenixfleecehoodie2.png"
 import wtechfleece from "../assets/clothing/wtechfleece.png";
 import wjordanbrooklynfleece from "../assets/clothing/wjordanbrooklynfleece.png";
 
+import wsportswearessentials from "../assets/HomeFitsGrid/wsportswearessentials.png";
+import wwindrunner from "../assets/HomeFitsGrid/wwindrunner.png";
+import wessentials2 from "../assets/HomeFitsGrid/wessentials2.png";
+import wchillrib from "../assets/HomeFitsGrid/wchillrib.png";
+import wphoenixfleece from "../assets/HomeFitsGrid/wphoenixfleece.png";
+import wwoven from "../assets/HomeFitsGrid/wwoven.png";
+import wchillrib2 from "../assets/HomeFitsGrid/wchillrib2.png";
+import wjordanbrooklynfleece2 from "../assets/HomeFitsGrid/wjordanbrooklynfleece.png";
+import wflightfleece from "../assets/HomeFitsGrid/wflightfleece.png";
+import mjordanbrooklynfleece from "../assets/HomeFitsGrid/mjordanbrooklynfleece.png";
+import mhoopfleece from "../assets/HomeFitsGrid/mhoopfleece.png";
+import mcrossover from "../assets/HomeFitsGrid/mcrossover.png";
+import wjbfleece from "../assets/HomeFitsGrid/wjbfleece.png";
+import jordanmvp from "../assets/HomeFitsGrid/jordanmvp.png";
+import jff from "../assets/HomeFitsGrid/jff.png";
+import jffpants from "../assets/HomeFitsGrid/wjffpants.png";
+import mjff from "../assets/HomeFitsGrid/mjff.png";
+import mpegasus41pg from "../assets/HomeFitsGrid/mpegasus41pg.png";
+import wpegasus41pg from "../assets/HomeFitsGrid/wpeasus41pq.png";
+import mpegasusplus from "../assets/HomeFitsGrid/mpegasusplus.png";
+import wpegasusplus from "../assets/HomeFitsGrid/wpegasusplus.png";
+import mtrail5 from "../assets/HomeFitsGrid/mtrail5.png";
+import wtrail5 from "../assets/HomeFitsGrid/wtrail5.png";
+import mvaporifly3 from "../assets/HomeFitsGrid/mvaprifly3.png";
+import wvaporifly3 from "../assets/HomeFitsGrid/wvaporifly3.png";
+import minvicible from "../assets/HomeFitsGrid/minvincible.png";
+import winvicible from "../assets/HomeFitsGrid/winvincible.png";
+import wswoosh from "../assets/HomeFitsGrid/wswoosh.png";
+import cortez from "../assets/HomeFitsGrid/cortez.png";
+import freestyle from "../assets/HomeFitsGrid/freestyle.png";
+
 export const NavLinks = [
   {
     id: 0,
@@ -207,6 +238,7 @@ export const HomeGridPictures = [
     description: "The Style of Sport",
     image: FOTW,
     btnText: "view",
+    url: "fits/all",
   },
   {
     id: 2,
@@ -214,6 +246,7 @@ export const HomeGridPictures = [
     description: "Brooklyn Fleece",
     image: JA,
     btnText: "view",
+    url: "fits/brooklyn-fleece",
   },
   {
     id: 3,
@@ -221,6 +254,7 @@ export const HomeGridPictures = [
     description: "Nike Pegasus 41",
     image: EFR,
     btnText: "view",
+    url: "fits/running-essentials",
   },
   {
     id: 4,
@@ -228,6 +262,7 @@ export const HomeGridPictures = [
     description: "Fall Favorites",
     image: NE,
     btnText: "view",
+    url: "fits/fall",
   },
 ];
 
@@ -1798,5 +1833,307 @@ export const ClothingItems = [
     filter: ["all", "hoodies"],
     color: "5 colors",
     price: "$52.97",
+  },
+];
+
+export const HomeGridMenu = [
+  {
+    id: "fits",
+    title: "Fits Of The Week",
+    type: "fits/all",
+  },
+  {
+    id: "brooklyn-fleece",
+    title: "Brooklyn Fleece",
+    type: "fits/brooklyn-fleece",
+  },
+  {
+    id: "running-essentials",
+    title: "Nike Pegasus 41 ",
+    type: "fits/running-essentials",
+  },
+  {
+    id: "favorites",
+    title: "Fall Favorite",
+    type: "fits/favorites",
+  },
+];
+
+export const fits = [
+  {
+    id: 0,
+    type: "Nike Sportswear Essentials",
+    category: "Sustainable Materials",
+    image: wsportswearessentials,
+    filter: ["all", "fits", "favorites"],
+    color: "4 colors",
+    price: "$85",
+  },
+  {
+    id: 1,
+    type: "Nike Windrunner",
+    category: "Sustainable Materials",
+    image: wwindrunner,
+    filter: ["all", "fits", "favorites"],
+    color: "3 colors",
+    price: "$115",
+  },
+  {
+    id: 2,
+    type: "Nike Sportswear Essentials",
+    category: "Sustainable Materials",
+    image: wessentials2,
+    filter: ["all", "fits", "essential"],
+    color: "4 colors",
+    price: "$100",
+  },
+  {
+    id: 3,
+    type: "Nike Sportswear Chill Rib",
+    image: wchillrib,
+    filter: ["all", "fits"],
+    color: "3 colors",
+    price: "$80",
+  },
+  {
+    id: 4,
+    type: "Nike Sportswear Phoenix Fleece",
+    image: wphoenixfleece,
+    filter: ["all", "fits"],
+    color: "2 colors",
+    price: "$90",
+  },
+  {
+    id: 5,
+    type: "Nike Sportswear Everything Wovens",
+    category: "Sustainable Materials",
+    image: wwoven,
+    filter: ["all", "fits"],
+    color: "3 colors",
+    price: "$102.97",
+  },
+  {
+    id: 6,
+    type: "Nike Sportswear Chill Rib",
+    image: wchillrib2,
+    filter: ["all", "fits"],
+    color: "2 colors",
+    price: "$60",
+  },
+  {
+    id: 7,
+    type: "Jordan Brooklyn Fleece",
+    image: wjordanbrooklynfleece2,
+    filter: ["all", "brooklyn-fleece"],
+    color: "5 colors",
+    price: "$65",
+  },
+  {
+    id: 8,
+    type: "Jordan Brooklyn Fleece",
+    image: wflightfleece,
+    filter: ["all", "brooklyn-fleece"],
+    color: "2 colors",
+    price: "$100",
+  },
+  {
+    id: 9,
+    type: "Jordan Brooklyn Fleece",
+    image: mjordanbrooklynfleece,
+    filter: ["all", "brooklyn-fleece"],
+    color: "2 colors",
+    price: "$60",
+  },
+  {
+    id: 10,
+    type: "Jordan Sport Hoop Fleece",
+    image: mhoopfleece,
+    filter: ["all", "brooklyn-fleece"],
+    color: "3 colors",
+    price: "$100",
+  },
+  {
+    id: 11,
+    type: "Jordan Sport Crossover",
+    image: mcrossover,
+    filter: ["all", "brooklyn-fleece"],
+    color: "3 colors",
+    price: "$70",
+  },
+  {
+    id: 12,
+    type: "Jordan Brooklyn Fleece",
+    image: wjbfleece,
+    filter: ["all", "brooklyn-fleece"],
+    color: "2 colors",
+    price: "$82",
+  },
+  {
+    id: 13,
+    type: "Jordan Brooklyn Fleece",
+    image: mjordanbrooklynfleece,
+    filter: ["all", "brooklyn-fleece"],
+    color: "2 colors",
+    price: "$60",
+  },
+  {
+    id: 14,
+    type: "Jordan Brooklyn Fleece",
+    image: jordanmvp,
+    filter: ["all", "brooklyn-fleece", "favorites"],
+    color: "2 colors",
+    price: "$88",
+  },
+  {
+    id: 15,
+    type: "Jordan Flight Fleece",
+    image: jff,
+    filter: ["all", "brooklyn-fleece", "favorites"],
+    color: "2 colors",
+    price: "$98",
+  },
+  {
+    id: 16,
+    type: "Jordan Flight Fleece",
+    image: jffpants,
+    filter: ["all", "brooklyn-fleece"],
+    color: "2 colors",
+    price: "$88",
+  },
+  {
+    id: 17,
+    type: "Jordan Brooklyn Fleece",
+    category: "Just In",
+    image: mjff,
+    filter: ["all", "brooklyn-fleece", "favorites"],
+    color: "1 colors",
+    price: "$100",
+  },
+  {
+    id: 18,
+    type: "Nike Pegasus 41 PQ (men)",
+    category: "Just In",
+    image: mpegasus41pg,
+    filter: ["all", "running-essentials", "favorites"],
+    color: "21 colors",
+    price: "$140",
+  },
+  {
+    id: 19,
+    type: "Nike Pegasus 41 PQ (women)",
+    category: "Just In",
+    image: wpegasus41pg,
+    filter: ["all", "running-essentials", "favorites"],
+    color: "21 colors",
+    price: "$140",
+  },
+  {
+    id: 20,
+    type: "Nike Pegasus Plus (men)",
+    image: mpegasusplus,
+    filter: ["all", "running-essentials"],
+    color: "5 colors",
+    price: "$180",
+  },
+  {
+    id: 21,
+    type: "Nike Pegasus Plus (women)",
+    image: wpegasusplus,
+    filter: ["all", "running-essentials"],
+    color: "5 colors",
+    price: "$180",
+  },
+  {
+    id: 22,
+    type: "Nike Pegasus Trail 5 GORE-TEX (men)",
+    category: "Sustainable Material",
+    image: mtrail5,
+    filter: ["all", "running-essentials"],
+    color: "7 colors",
+    price: "$170",
+  },
+  {
+    id: 23,
+    type: "Nike Pegasus Trail 5 GORE-TEX (women)",
+    category: "Sustainable Material",
+    image: wtrail5,
+    filter: ["all", "running-essentials"],
+    color: "4 colors",
+    price: "$170",
+  },
+  {
+    id: 24,
+    type: "Nike Vaporifly 4 (men)",
+    image: mvaporifly3,
+    filter: ["all", "running-essentials"],
+    color: "11 colors",
+    price: "$260",
+  },
+  {
+    id: 25,
+    type: "Nike Vaporifly 4 (women)",
+    image: wvaporifly3,
+    filter: ["all", "running-essentials"],
+    color: "11 colors",
+    price: "$260",
+  },
+  {
+    id: 26,
+    type: "Nike Invincible 3 Blueprint (men)",
+    image: minvicible,
+    filter: ["all", "running-essentials"],
+    color: "19 colors",
+    price: "$180",
+  },
+  {
+    id: 27,
+    type: "Nike Invincible 3 Blueprint (women)",
+    image: winvicible,
+    filter: ["all", "running-essentials"],
+    color: "22 colors",
+    price: "$180",
+  },
+  {
+    id: 28,
+    type: "Nike Swoosh Support",
+    image: wswoosh,
+    filter: ["all", "favorites"],
+    color: "2 colors",
+    price: "$40",
+  },
+  {
+    id: 29,
+    type: "Nike Icon Cortez",
+    image: cortez,
+    filter: ["all", "favorites"],
+    color: "1 color",
+    price: "$35",
+  },
+  {
+    id: 30,
+    type: "Nike Dunk Low",
+    category: "Best Seller",
+    image: nikeDunkLow,
+    filter: ["all", "favorites"],
+    color: "1 color",
+    price: "$115",
+  },
+  {
+    id: 31,
+    type: "Nike Air Max 270",
+    category: "Best Seller",
+    image: NikeAirMax270,
+    filter: ["all", "favorites"],
+    color: "1 color",
+    price: "$160",
+  },
+  {
+    id: 32,
+    type: "Nike Freestyle",
+    category: "Sustainable Materials",
+    image: freestyle,
+    filter: ["all", "favorites"],
+    color: "1 color",
+    price: "$50",
   },
 ];

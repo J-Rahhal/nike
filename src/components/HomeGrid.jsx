@@ -1,5 +1,6 @@
 import React from "react";
 import { HomeGridPictures } from "../constants/index";
+import { Link } from "react-router-dom";
 
 const HomeGrid = () => {
   return (
@@ -17,9 +18,12 @@ const HomeGrid = () => {
             <div className="absolute bottom-3 left-5">
               <h3 className="text-sm  md:text-lg">{picture.title}</h3>
               <p className="text-xl py-2 md:text-3xl">{picture.description}</p>
-              <button className="bg-white text-black  px-4 py-1 rounded-full md:text-lg lg:text-xl">
+              <Link
+                to={`/${picture.url}`}
+                className="bg-white text-black  px-4 py-1 rounded-full md:text-lg lg:text-xl"
+              >
                 {picture.btnText}
-              </button>
+              </Link>
             </div>
           </div>
         );
